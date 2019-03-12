@@ -1,0 +1,18 @@
+  {
+  	"name": "Dark Motivate",
+  	"version": "1.0",
+  	"description": "Tells time from your birth time!",
+  	"permissions": ["storage","tabs"],
+  	"background": {
+  		"scripts": ["background.js"],
+  		"persistent": false
+  	},
+  	"chrome_url_overrides" : {
+  		"newtab": "popup.html"
+  	},
+  	"browser_action":{
+  		"default_popup":"popup.html",
+  		"default_title":"Dark Motivate"
+  	},
+  	"manifest_version": 2
+  }
